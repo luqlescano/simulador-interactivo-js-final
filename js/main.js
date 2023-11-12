@@ -103,10 +103,10 @@ agregarAutoButton.addEventListener("click", function(event) {
         return;
     }
 
-    if (isNaN(anioInput) || anioInput <= 1900 || anioInput >= 2024) {
+    if (isNaN(anioInput) || anioInput < 1885 || anioInput > 2024) {
         Swal.fire(
             '¡Error en Año!',
-            'Recordá que el campo no puede estar vacio y solo se admiten autos que hayan sido fabricados entre 1900 y 2024...',
+            'Recordá que el campo no puede estar vacio y solo se admiten autos que hayan sido fabricados entre 1886 y 2023...',
             'error'
         );
         return;
