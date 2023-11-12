@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Lescano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="p-4 text-center">Lista de autos</h1>
+        </header>
+        <main>
+            <div class="row align-items-center ps-2 pb-2">
+                <div class="col-auto">
+                    <label for="filtro-marca">Filtrar por Marca:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="filtro-marca" class="form-control" placeholder="Escribí aquí...">
+                </div>              
+            </div>     
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Marca</th>
+                            <th scope="col">Modelo</th>
+                            <th scope="col">Año</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla-autos">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="col-md-8 col-lg-6">
+                    <h3 class="p-4 text-center">Formulario de carga</h3>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="marca-input">Marca:</label>
+                            <input type="text" id="marca-input" class="form-control" placeholder="Marca">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="modelo-input">Modelo:</label>
+                            <input type="text" id="modelo-input" class="form-control" placeholder="Modelo">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="anio-input">Año:</label>
+                            <input type="number" id="anio-input" class="form-control" placeholder="Año">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="estado-input">Estado:</label>
+                            <input type="text" id="estado-input" class="form-control" placeholder="Estado">
+                        </div>
+                        <div class="d-grid">
+                            <button id="agregar-auto" class="btn btn-primary">Agregar auto</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="p-4 text-center">Proyecto Final Lescano</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

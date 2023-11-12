@@ -1,0 +1,40 @@
+{
+    "autos": [
+        {
+            "marca": "Peugeot",
+            "modelo": "208",
+            "anio": 2015,
+            "estado": "Usado"
+        },
+        {
+            "marca": "Honda",
+            "modelo": "Fit",
+            "anio": 2010,
+            "estado": "Usado"
+        },
+        {
+            "marca": "Ford",
+            "modelo": "Fiesta",
+            "anio": 2003,
+            "estado": "Usado"
+        },
+        {
+            "marca": "Citroen",
+            "modelo": "C3",
+            "anio": 2017,
+            "estado": "Usado"
+        },
+        {
+            "marca": "Ford",
+            "modelo": "Fiesta",
+            "anio": 1995,
+            "estado": "Usado"
+        },
+        {
+            "marca": "Volkswagen",
+            "modelo": "Polo",
+            "anio": 2023,
+            "estado": "Nuevo"
+        }
+    ]
+}
